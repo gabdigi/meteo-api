@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 0px;
+    background: crimson;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+}
+
+.container {
+    padding: 20px 0 ;
+}
+
+input, label, button {
+    width: 40%;
+    margin: auto;
+}
+label {
+    text-align: center;
+    font-size: 35px;
+}
+
+input {
+    border: none;
+    padding: 1rem 2rem;
+    outline: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+button {
+    margin-top: 20px;
+    width: 20%;
+    padding: .8rem 2rem;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.city-container h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.detail-container h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.detail-container  ul li span{
+    font-size: 40px;
+    color: purple;
+    font-weight: 900;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gold;
+    padding: 1rem 2rem;
+   
+    border-radius: 10px;
+    font-size: 30px;
+    width: 60%;
+    margin: 10px auto;
+}
+
+#hot {
+    color: rgb(197, 74, 74);
+}
+
+#cold {
+    color:  rgb(72, 151, 231);
+}
+
+
+#container-cold{
+    background: url("../assets/cold.jpg");
+    background-size: cover;
+}
+
+#container-hot{
+    background: url("../assets/hot.jpg");
+    background-size: cover;
+}
